@@ -9,7 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface clRepoNote : NSObject
-@property (nonatomic, strong) NSMutableArray * arryNote;
+
+@property (nonatomic, strong) NSMutableArray * arrayNote;
 +(clRepoNote *) instanciaPublica;
 -(void) leerNotas;
 -(void) guardarNotas;

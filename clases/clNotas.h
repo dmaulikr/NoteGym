@@ -12,10 +12,10 @@
 
 //Variables propias de la clase
 @property (nonatomic, strong) NSString * Dia;
-@property int Km;
-@property int Kal;
-@property int Time;
-@property int TotalD;
+@property (nonatomic, strong) NSString * Km;
+@property (nonatomic, strong) NSString * Kal;
+@property (nonatomic, strong) NSString * Time;
+@property (nonatomic, strong) NSString * TotalD;
 
 
 
