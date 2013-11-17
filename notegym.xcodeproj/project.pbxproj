@@ -23,6 +23,8 @@
 		CF168969183848450055C766 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF168945183848450055C766 /* UIKit.framework */; };
 		CF168971183848450055C766 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF16896F183848450055C766 /* InfoPlist.strings */; };
 		CF168973183848450055C766 /* notegymTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF168972183848450055C766 /* notegymTests.m */; };
+		CF16897F18384D5B0055C766 /* clNotas.m in Sources */ = {isa = PBXBuildFile; fileRef = CF16897E18384D5B0055C766 /* clNotas.m */; };
+		CF168982183851210055C766 /* clRepoNote.m in Sources */ = {isa = PBXBuildFile; fileRef = CF168981183851210055C766 /* clRepoNote.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,10 @@
 		CF16896E183848450055C766 /* notegymTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "notegymTests-Info.plist"; sourceTree = "<group>"; };
 		CF168970183848450055C766 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CF168972183848450055C766 /* notegymTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = notegymTests.m; sourceTree = "<group>"; };
+		CF16897D18384D5B0055C766 /* clNotas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clNotas.h; path = clases/clNotas.h; sourceTree = SOURCE_ROOT; };
+		CF16897E18384D5B0055C766 /* clNotas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = clNotas.m; path = clases/clNotas.m; sourceTree = SOURCE_ROOT; };
+		CF168980183851210055C766 /* clRepoNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clRepoNote.h; path = clases/clRepoNote.h; sourceTree = SOURCE_ROOT; };
+		CF168981183851210055C766 /* clRepoNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = clRepoNote.m; path = clases/clRepoNote.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,7 @@
 		CF168947183848450055C766 /* notegym */ = {
 			isa = PBXGroup;
 			children = (
+				CF16897C183849050055C766 /* Clases */,
 				CF168950183848450055C766 /* AppDelegate.h */,
 				CF168951183848450055C766 /* AppDelegate.m */,
 				CF168953183848450055C766 /* Main_iPhone.storyboard */,
@@ -158,6 +165,17 @@
 				CF16896F183848450055C766 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF16897C183849050055C766 /* Clases */ = {
+			isa = PBXGroup;
+			children = (
+				CF16897D18384D5B0055C766 /* clNotas.h */,
+				CF16897E18384D5B0055C766 /* clNotas.m */,
+				CF168980183851210055C766 /* clRepoNote.h */,
+				CF168981183851210055C766 /* clRepoNote.m */,
+			);
+			name = Clases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +278,8 @@
 			files = (
 				CF168952183848450055C766 /* AppDelegate.m in Sources */,
 				CF16895B183848450055C766 /* MasterViewController.m in Sources */,
+				CF168982183851210055C766 /* clRepoNote.m in Sources */,
+				CF16897F18384D5B0055C766 /* clNotas.m in Sources */,
 				CF16894E183848450055C766 /* main.m in Sources */,
 				CF16895E183848450055C766 /* DetailViewController.m in Sources */,
 			);
